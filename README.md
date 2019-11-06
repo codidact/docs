@@ -1,4 +1,4 @@
-# expert-engine
+# [codidact](https://codidact.org/)
 
 A work-in-progress, healthy alternative to the Stack Exchange Network.
 
