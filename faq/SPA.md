@@ -4,7 +4,7 @@
 ['Single Page Application'](https://en.wikipedia.org/wiki/Single-page_application) with a single HTML file where contents are dynamically updated
 
 ### Result:
-[By vote held on the 17/10/19](https://discordapp.com/channels/634104110131445811/634469221086003210/634469622690873357) asking "should we build a SPA?", result was 'no' by 7 votes to 2.
+[By vote held on the 2019-10-17](https://discordapp.com/channels/634104110131445811/634469221086003210/634469622690873357) asking "should we build a SPA?", result was 'no' by 7 votes to 2.
 
 That is, the answer is 'not to SPA'
 
