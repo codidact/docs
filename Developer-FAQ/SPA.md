@@ -21,3 +21,10 @@ SO only uses websockets for a small portion of users (those with >50 rep) as web
 Using SPA doesn't solve all the issues of not using SPA anyway, as sessions are still required in the backend for ex. a logged-in user to receive notifications.
 
 Can use isomorphically rendered SPA, which would allow for SEO but would require using some form of JavaScript on the backend, which was strongly opposed (see other FAQs).
+
+### Conversation links
+
+- [Discord 1 (#ideas, 2019-10-17)](https://discordapp.com/channels/634104110131445811/634105527495819281/634390023738884117)
+- [Discord 2 (#programming-general, 2019-10-17)](https://discordapp.com/channels/634104110131445811/634374616646811648/634455833400573982)
+- [Discord 3 (#general, 2019-10-17)](https://discordapp.com/channels/634104110131445811/634104110131445815/634380444170977285)
+- [Discord 4 (#programming-general, 2019-10-17)](https://discordapp.com/channels/634104110131445811/634374616646811648/634470578824413194)
