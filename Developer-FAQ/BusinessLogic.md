@@ -18,5 +18,9 @@ As we're not using a SPA (Single Page Application; see the SPA FAQ), nearly ever
 
 In case e.g. someone tries to cheat the system or has their permissions changed, permissions need to be checked on every submission anyway. This is especially true as we're open source, so other people could recreate and misuse the interface easily and server-side validation means better security.
 
+### References:
+
+- [Wiki article on ACID (atomicity, consistency, isolation, durability)](https://en.wikipedia.org/wiki/ACID)
+
 ### Conversation link
 [Discord 1 (#team-general, 2020-02-21)](https://discordapp.com/channels/634104110131445811/668890340199235613/680459930180124682)

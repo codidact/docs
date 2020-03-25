@@ -48,6 +48,7 @@ Having multiple databases with multiple communities in each would scale much bet
 - [stackexchange.com](stackexchange.com) 'Network site'
 - Sklivyz's tool for [database migrations](https://github.com/intelligenthack/badgie-migrator)
 - [explanation of canary release](https://martinfowler.com/bliki/CanaryRelease.html)
+- [Database Diagram of Stack Exchange model](https://meta.stackexchange.com/q/250396/349720)
 
 ##### **Decision** made on the 4th February:
 - each community to have its own database, without PII
@@ -181,3 +182,35 @@ https://forum.codidact.org/t/how-do-we-separate-distinct-communities/138?u=mithr
 - each community to have its own database, without PII
 - Account management will have PII and be a separate service
 - instance database and service hopefully without PII
+
+#### Discord 2 (ideas, 2019-10-18):
+https://discordapp.com/channels/634104110131445811/634105527495819281/634830163724468235
+
+- each site should have control, including code/features
+- still present as network
+- need to separate interface from implementation
+
+#### Discord 3 (ideas, 2019-10-19):
+https://discordapp.com/channels/634104110131445811/634105527495819281/635011034968752138
+
+- don't always want schemas for different sites to be the same
+  - a lot of maintenance
+  - would possibly want custom css, js
+  - would like a set of features (e.g. mathjax) customisable per sites
+- could use a different model where each site spins up their own instance
+
+#### Discord 4 (general, 2019-11-01):
+https://discordapp.com/channels/634104110131445811/634104110131445815/639852269252378654
+
+- Could decentralise
+  - Increases complexity a lot
+  - different servers have different content
+  - sites can be more fluid
+  - no centralised server and no single individual owner/entity in charge
+  - similar to community-donated/operated servers/tor nodes
+  - neither simple nor accessible
+  - how would it scale?
+    - tends to get centralised
+  - "don't build something with a bunch of complexity that only appeals to techno-elites"
+- can still have a centralised system across multiple databases/servers
+- open source means anyone can take code and create their own community
