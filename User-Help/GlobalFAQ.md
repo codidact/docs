@@ -8,7 +8,7 @@ Codidact is an open-source initiative to provide a high-quality, community-contr
 
 ## Who runs Codidact?
 
-Users just like you! The software is built and hosted by volunteers who are passionate about the need for a community-driven Q&A site. Each site is moderated by a team of dedicated, experienced users who spend their time weeding out spam, coaching newbies, and ensuring questions are on-topic and high-quality. 
+Users just like you! The software is built and hosted by volunteers who are passionate about the need for a community-driven Q&A site. Each site is moderated by a team of dedicated, experienced users who spend their time weeding out spam, coaching newcomers, and ensuring questions are on-topic and high-quality. 
 
 ## How do I ask a question?
 
