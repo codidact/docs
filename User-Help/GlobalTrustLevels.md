@@ -2,11 +2,11 @@
 
 # Trust Level Overview
 
-Codidact sites are community run and are moderated by trusted members of that community. Users who consistently make high-quality contributions to a community via posting and other activity gradually obtain more privileges and access to certain moderation tools based on a calculated "Trust Level." You can see current Trust Level on any user's profile. 
+Codidact sites are community run and are moderated by trusted members of that site. Users who consistently make high-quality contributions to a community via posting and other activity gradually obtain more privileges and access to certain moderation tools based on a calculated "Trust Level." You can see current Trust Level on any user's profile. 
 
 Some communities may have a higher bar to obtain trust levels than others, or restrict certain categories based on trust level. The default settings are listed below, but check out your site's FAQ to see if they have any custom requirements. 
 
-# Trust Levels and associated permissions
+# Trust levels and associated permissions
 
 There are six trust levels with increasing access and levels of responsibility. The table below shows the typical community settings for each. 
 
@@ -95,7 +95,7 @@ Creating tags is a difficult task, as they need to be generic enough to be commo
 
 If a post is controversial or has attracted low quality answers, sometimes the moderation team will restrict answering to users with a higher trust level.
 
-### Temporarily lock posts
+### Lock posts
 
 Similar to post protection, sometimes the moderation team needs to temporarily lock a post to avoid an edit war, or lock comments to let users cool off. Locked questions can still be answered, and voting is still allowed.  
 
