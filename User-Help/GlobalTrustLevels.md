@@ -2,7 +2,7 @@
 
 # Trust Level Overview
 
-Codidact sites are run by the community and are moderated by trusted members of that site. Users who consistently make high-quality contributions to a community via posting and other activity gradually obtain more privileges and access to certain moderation tools based on a calculated "Trust Level." You can see current Trust Level on any user's profile. 
+Codidact sites are run by the community and moderated by trusted members. Users who consistently make high-quality contributions to a community via posting and other activity gradually obtain more privileges and access to certain moderation tools based on a calculated "Trust Level." You can see current Trust Level on any user's profile. 
 
 Some communities may have a higher bar to obtain trust levels than others, or restrict certain categories based on trust level. The default settings are listed below, but check out your site's FAQ to see if they have any custom requirements. 
 
