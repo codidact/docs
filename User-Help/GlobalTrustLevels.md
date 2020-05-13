@@ -2,7 +2,7 @@
 
 # Trust Level Overview
 
-Codidact sites are community run and are moderated by trusted members of that site. Users who consistently make high-quality contributions to a community via posting and other activity gradually obtain more privileges and access to certain moderation tools based on a calculated "Trust Level." You can see current Trust Level on any user's profile. 
+Codidact sites are run by the community and are moderated by trusted members of that site. Users who consistently make high-quality contributions to a community via posting and other activity gradually obtain more privileges and access to certain moderation tools based on a calculated "Trust Level." You can see current Trust Level on any user's profile. 
 
 Some communities may have a higher bar to obtain trust levels than others, or restrict certain categories based on trust level. The default settings are listed below, but check out your site's FAQ to see if they have any custom requirements. 
 
@@ -25,7 +25,6 @@ There are six trust levels with increasing access and levels of responsibility. 
 | **Direct edits**                          | n/a                                                                                  | n/a                                                                                                  | n/a                                              | Full access                                                                                         | Full access                                                                       | Full access                                                    |
 | **Review flags and suggested edits**      | n/a                                                                                  | n/a                                                                                                  | n/a                                              | Full access                                                                                         | Full access                                                                       | Full access                                                    |
 | **Create tags**                           | n/a                                                                                  | n/a                                                                                                  | n/a                                              | Full access                                                                                         | Full access                                                                       | Full access                                                    |
-| **Protect posts**                         | n/a                                                                                  | n/a                                                                                                  | n/a                                              | Full access                                                                                         | Full access                                                                       | Full access                                                    |
 | **Lock posts**                | n/a                                                                                  | n/a                                                                                                  | n/a                                              | n/a                                                                                                 | Full access                                                                       | Full access                                                    |
 | **Delete posts**                     | n/a                                                                                  | n/a                                                                                                  | n/a                                              | n/a                                                                                                 | Full access                                                                       | Full access                                                    |
 | **Delete comments**                  | n/a                                                                                  | n/a                                                                                                  | n/a                                              | n/a                                                                                                 | n/a                                                                               | Full access                                                    |
@@ -77,7 +76,7 @@ Downvotes are the negative analogue to upvotes. They are used to reduce the visi
 
 ### Vote-to-hold
 
-Some questions might be off-topic, or unclear without additional information from the original poster. In these cases it's best to put a temporary hold on response until the original poster updates his work. All holds will come with an explanation, and will be removed once the necessary edits are made.
+Some questions might be off-topic, or unclear without additional information from the original poster. In these cases it's best to put a temporary hold on response until the original poster updates the question. All holds will come with an explanation, and will be removed once the necessary edits are made.
 
 ### Direct edits
 
@@ -90,10 +89,6 @@ Flags and suggested edits go into a moderation queue for approval. Higher trust 
 ### Create tags
 
 Creating tags is a difficult task, as they need to be generic enough to be commonly chosen, while also not duplicating other existing tags. Currently this functionality is limited to users with enough experience to have a good idea of what to look for in a tag. 
-
-### Protect posts
-
-If a post is controversial or has attracted low quality answers, sometimes the moderation team will restrict answering to users with a higher trust level.
 
 ### Lock posts
 
