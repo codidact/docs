@@ -12,12 +12,18 @@
 
 - Create site record
 - Run seeds
-- Import data (if required)
 - Edit nginx config
 - Add records to CF DNS unproxied
 - Generate or expand TLS cert
 - Proxy CF DNS records
 - Restart nginx
+
+## Import and tidy imported data (sysadmin)
+
+Only required if data is being imported from SE
+- Import data
+- Associate existing Codidact users with newly imported posts
+- Fix any post import conversion issues
 
 ## Post-deployment (community sponsors)
 
