@@ -14,7 +14,7 @@ So far, we've thought about the data licensing under which posts are created and
 
 It's essential that sensitive data/PII be kept separate from the public data, so this should be done on a single separate database serving all communities. Authentication etc. shouldn't rely on 3rd party login services and should be done by a separate module.
 
-We would like to have some form of integration between sites and potentially even instances (in the long run) and some way for users to access network profiles, which could contain questions from sites they visit, notifications etc. (similar to a user's network profile). On the other hand, few users want to be a user on every site and a number actively don't want this. So, we want an easy way for users to join new sites without automatically joining them to all sites.
+We would like to have some form of integration between sites and potentially even instances (in the long run) and some way for users to access network profiles, which could contain questions from sites they visit, notifications etc. (similar to a user's network profile). On the other hand, few users want to be a user on every site and a number actively don't want this. So, we want an easy way for users to join new sites without automatically joining them to all sites. While we want the network to present as a network, each site should have some level of control, with customisable features, such as mathjax.
 
 There will be a _lot_ of data and a lot of tables as virtually everything (e.g. votes, edits etc.) will need to be permanently saved in detail. Storage and RAM are cheap, so this should be fine from a cost perspective. In order to have good performance, we need to ensure that the right data is in the right place for easiest access. Having said that, it might turn out that we'll find a better way of storing everything after MVP, so the database structure will likely change at some point. The most common data access will be to look at question pages, so this needs to be heavily optimised and we want to minimise the number of queries made to a reasonable minimum, although it will be more than one per page. A Stored Procedure (sproc) will help with this as it has a smaller overhead. Having separate tables for questions and answers may also help with performance as while PostgreSQL has methods to help with performance of large tables, these methods can add extra complexity to the code and we want to keep things as simple as possible for as long as possible.
 
@@ -32,13 +32,13 @@ In addition, there will be a separate database for PII etc.
 
 ##### Advantages and disadvantages
 
-Each community having its own instance is a possibility as this allows for a lot of flexibility with each community. It also allows for eacy spreading over multiple servers in multiple locations and we wouldn't need to worry about how to deal with communities 'splitting off'. However, that's because this _is_ having communities split off and everything is very separated. This might end up happening naturally to some extent in the future (e.g. SO, Meta SE and the SE Network are all fairly separated and we want communities to be free to make this decision themselves).
+Each community having its own instance is a possibility as this allows for a lot of flexibility with each community. It also allows for eacy spreading over multiple servers in multiple locations and we wouldn't need to worry about how to deal with communities 'splitting off'. However, that's because this _is_ having communities split off and everything is very separated. This might end up happening naturally to some extent in the future (e.g. SO, Meta SE and the SE Network are all fairly separated and we want communities to be free to make this decision themselves). This also introduces extra complexity and worst, may start only appealing to technophiles, which we want to avoid. As we're an open source project, people are free to do this if they wish to do so.
 
 Having a single database per community allows for better optimisation of non-network queries, which are going to be the most frequent queries by far. Cross-site queries would have to be done by middleware/APIs, although will be much rarer than regular ('within-site') queries. This is nevertheless within the constraints of Codidact, although outside the constraints of the Codidact 'core' repository. Middleware would also be required for user profile management and question migrations. The extra database for PII can be used throughout the network and any changes to the database design or high level moderation can be scripted. In particular, this allows for canary release to minimise problems caused by new software versions and limits the damage caused by potential 'disaster events'.
 
 Using a single schema per community makes the communities less isolated than a single database per community and makes for more easily implement cross-community queries. Although regular queries are still fast, PostgreSQL would struggle to cope with the sheer number of tables at SE scale making these cross-community queries potentially slow at scale. It's also less secure and would need to be able to cope with huge numbers of concurrent connections. As a result, this method would be difficult to scale well.
 
-A community in each table would require fewer tables and allow for easier network usage and moderation but would also be [difficult to implement](https://github.com/codidact/core/blob/ranolfi/skeleton/Database/Diagrams/png/Main%20DB%20Model.png), would run into issues with concurrent connections and volume of queries and would simply get too big at scale, meaning either difficult to implement methods to deal with massive databases would have to be used, or we'd have to split the database anyway. While it would create a more 'linked' network, allowing for easier migrations and easier network moderation, this would also lead to corresponding issues, such as it being harder to perform maintenance on individual communities and making it harder for individual communities to start their own instance.
+A community in each table would require fewer tables and allow for easier network usage and moderation but would also be [difficult to implement](https://github.com/codidact/core/blob/ranolfi/skeleton/Database/Diagrams/png/Main%20DB%20Model.png), would run into issues with concurrent connections and volume of queries and would simply get too big at scale, meaning either difficult to implement methods to deal with massive databases would have to be used, or we'd have to split the database anyway. While it would create a more 'linked' network, allowing for easier migrations and easier network moderation, this would also lead to corresponding issues, such as it being harder to perform maintenance on individual communities and making it harder for individual communities to start their own instance or potentially customise their schema, although allowing communities to do this would create extra maintenance work.
 
 Having multiple databases with multiple communities in each would scale much better than having a single table but as cross-site queries would still require work to be done across databases, this solution is no easier than having a single community per database.
 
@@ -49,6 +49,7 @@ Having multiple databases with multiple communities in each would scale much bet
 - Sklivyz's tool for [database migrations](https://github.com/intelligenthack/badgie-migrator)
 - [explanation of canary release](https://martinfowler.com/bliki/CanaryRelease.html)
 - [Database Diagram of Stack Exchange model](https://meta.stackexchange.com/q/250396/349720)
+- [Database Schema](https://forum.codidact.org/t/database-schema-round-8-wip/1138?u=mithrandir24601) for Codidact
 
 ##### **Decision** made on the 4th February:
 - each community to have its own database, without PII
@@ -57,14 +58,12 @@ Having multiple databases with multiple communities in each would scale much bet
 
 ### summaries:
 
-#### Discord 1 (ideas, 2019-10-17):
-https://discordapp.com/channels/634104110131445811/634105527495819281/634389524754989138
+#### Discord 1 ([ideas, 2019-10-17](https://discordapp.com/channels/634104110131445811/634105527495819281/634389524754989138)):
 
 - 1 DB shared between all sites doesn't scale
 - using schemas 'considered better' than one big table
 
-#### Discourse 1 (software development/'How do we separate distinct communities?'', 2019-10-17):
-https://forum.codidact.org/t/how-do-we-separate-distinct-communities/138?u=mithrandir24601
+#### Discourse 1 ([software development/'How do we separate distinct communities?'', 2019-10-17](https://forum.codidact.org/t/how-do-we-separate-distinct-communities/138?u=mithrandir24601)):
 
 - Options:
   - 1 instance per community
@@ -183,15 +182,13 @@ https://forum.codidact.org/t/how-do-we-separate-distinct-communities/138?u=mithr
 - Account management will have PII and be a separate service
 - instance database and service hopefully without PII
 
-#### Discord 2 (ideas, 2019-10-18):
-https://discordapp.com/channels/634104110131445811/634105527495819281/634830163724468235
+#### Discord 2 ([ideas, 2019-10-18](https://discordapp.com/channels/634104110131445811/634105527495819281/634830163724468235)):
 
 - each site should have control, including code/features
 - still present as network
 - need to separate interface from implementation
 
-#### Discord 3 (ideas, 2019-10-19):
-https://discordapp.com/channels/634104110131445811/634105527495819281/635011034968752138
+#### Discord 3 ([ideas, 2019-10-19](https://discordapp.com/channels/634104110131445811/634105527495819281/635011034968752138)):
 
 - don't always want schemas for different sites to be the same
   - a lot of maintenance
@@ -199,8 +196,7 @@ https://discordapp.com/channels/634104110131445811/634105527495819281/6350110349
   - would like a set of features (e.g. mathjax) customisable per sites
 - could use a different model where each site spins up their own instance
 
-#### Discord 4 (general, 2019-11-01):
-https://discordapp.com/channels/634104110131445811/634104110131445815/639852269252378654
+#### Discord 4 ([general, 2019-11-01](https://discordapp.com/channels/634104110131445811/634104110131445815/639852269252378654)):
 
 - Could decentralise
   - Increases complexity a lot
@@ -214,3 +210,23 @@ https://discordapp.com/channels/634104110131445811/634104110131445815/6398522692
   - "don't build something with a bunch of complexity that only appeals to techno-elites"
 - can still have a centralised system across multiple databases/servers
 - open source means anyone can take code and create their own community
+
+#### Discord 5 ([general, 2019-11-17 - 2019-11-18](https://discordapp.com/channels/634104110131445811/635510829499940912/645739737096912947)):
+
+- Relational Database Management System (RDBMS) is flexible and efficient
+- data e.g. threaded comments can be sorted on the web server, not necessarily on the database server
+- can separate fields such as revision history
+- questions about the efficiency of join statements in SQL databases compared with no SQL e.g. mongoDB
+
+#### Discord 6 ([tech-lead-communication, 2019-11-20](https://discordapp.com/channels/634104110131445811/641360136908046336/646851932459106325)):
+
+- caching and intermediate value storage e.g. 2FA don't have to be stored in a database
+  - want a central e.g. Redis instance so all web servers can share values
+
+#### Discord 7 ([tech-lead-communication, 2019-12-15](https://discordapp.com/channels/634104110131445811/641360136908046336/655805764312760333)):
+
+- single database per instance has easier consolidation and simpler management
+- managing multiple databases requires work to set up automatic systems
+  - can be deferred
+- conservation of hardness in changing database structure in future?
+- can still use a relational structure
