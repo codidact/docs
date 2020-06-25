@@ -9,12 +9,12 @@ All of our communities must abide by the Codidact Code of Conduct, which is [in 
 ## You're a community leader
 Particularly in the early stages of your site, you'll be one of the most prominent figures. Your actions will help to build and shape your site and your community, and set the standards and norms for those who come after you.
 
-One of the most important things you can do for your community is to help guide discussion. Remember always that being a moderator doesn't make you More Right™, but it should mean that your community respect you and look to you as a guiding figure. Offer your experience and advice, but avoid dictating.
+One of the most important things you can do for your community is to help guide discussion. Remember that being a moderator doesn't make you More Right™, but it does mean that your words carry a certain weight and your community looks to you as a guiding figure. Offer your experience and advice, but avoid throwing your weight around and using your position to shut down people who disagree with you.
 
-This also means that your actions can set the tone for the community - if you're welcoming and inclusive and you encourage others to do likewise, your community will be too.
+This also means that your actions can set the tone for the community - if you're welcoming and inclusive and you encourage others to do likewise, your community will be welcoming and inclusive too.
 
 ### We'll listen to you
-Codidact staff keep an eye on all communities, but we don't always see every post. If there's something you think needs our attention or something your community needs that we can help with, let someone know. As a leader in your community, you know your community better than we do, so we'll defer to you as much as possible.
+Codidact staff keep an eye on all communities, but we don't always see every post. If there's something you think needs our attention or something your community needs that we can help with, let someone know - you can email us at info@codidact.org, or we'll often respond more quickly in Discord (see below). As a leader in your community, you know your community better than we do, so we'll defer to you as much as possible.
 
 ## You get access to moderator-only chat
 Every community has a link to our [Communities Discord server](https://discord.gg/bv2aaGa), where each community can have chat channels. As a moderator, you also get access to the moderator-only lounge, where moderators from across our network and Codidact staff can talk in private. If you haven't already, create an account there (Discord accounts are separate to Codidact network accounts), and ping someone with a green name to get your access.
