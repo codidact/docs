@@ -2,7 +2,7 @@
 So you've been given moderator status on a Codidact site. Welcome! This is what that means for you.
 
 ## Your community is your community
-Codidact sites are community-run. We're here to support you and your community, but you make the decisions about how you run things yourselves. We'll provide our advice and guidance and let you know what we think works well, but if your community wants to go in a different direction, that's up to you!
+Codidact sites are community-run. Codidact is here to support you and your community, but you make the decisions about how you run things yourselves. We'll provide our advice and guidance and let you know what we think works well, but if your community wants to go in a different direction, that's up to you!
 
 All of our communities must abide by the Codidact Code of Conduct, which is [in your help center](/policy/code-of-conduct).
 
