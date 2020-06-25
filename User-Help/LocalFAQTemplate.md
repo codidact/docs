@@ -17,7 +17,7 @@ $sitename currently has no additional guidelines beyond the Codidact TOS and Cod
 
 <!--- If you have a trust level or other custom authorization requirement --> 
 ## Why can't I post a question? 
-_You may not have verified your account yet. Make sure you've clicked the link sent to your email when you registered, or re-verify using the "Verify" button on your profile. If you're still having trouble, message one of the mods or reach out to the team using the community [Discord server](https://discord.com/invite/bv2aaGa).
+You may not have verified your account yet. Make sure you've clicked the link sent to your email when you registered, or re-verify using the "Verify" button on your profile. If you're still having trouble, message one of the mods or reach out to the team using the community [Discord server](https://discord.com/invite/bv2aaGa).
 
 <!--- If you have multiple categories on the site, a short description what they are for and what is on or off topic  -->
 ## What are the different categories for?
