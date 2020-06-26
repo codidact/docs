@@ -16,8 +16,10 @@ This also means that your actions can set the tone for the community - if you're
 ### We'll listen to you
 Codidact staff keep an eye on all communities, but we don't always see every post. If there's something you think needs our attention or something your community needs that we can help with, let someone know - you can email us at info@codidact.org, or we'll often respond more quickly in Discord (see below). As a leader in your community, you know your community better than we do, so we'll defer to you as much as possible.
 
-## You get access to moderator-only chat
+## You get access to moderator-only chat and news
 Every community has a link to our [Communities Discord server](https://discord.gg/bv2aaGa), where each community can have chat channels. As a moderator, you also get access to the moderator-only lounge, where moderators from across our network and Codidact staff can talk in private. If you haven't already, create an account there (Discord accounts are separate to Codidact network accounts), and ping someone with the Admin or Team role to get your access.
+
+We also have a subscription available for moderators. We'll occasionally send round newsletters containing important or useful information for what you do as a moderator. You'll only get these emails if you subscribe, which you can do [here](/subscriptions/new/moderators) (the frequency you pick doesn't matter, as this list is sent to manually).
 
 ## You get some special abilities
 As a moderator, you automatically have every privilege on the site. You can also do a few more things that regular users never get to do:
