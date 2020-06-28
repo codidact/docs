@@ -39,7 +39,7 @@ Codidact uses the [CommonMark implementation](https://commonmark.org) of Markdow
 
 * **Blockquotes**
 
-  When quoting text from somewhere else, you can use a blockquote to signify that this is not your original text, but a quote from somewhere else. Put a greater than symbol (`>`) before a paragraph to mark that quote as a blockquote. For instance, `> This is a blockquote.` will render as a quote:
+  When quoting text from somewhere else, you can use a blockquote to signify that this is not your original text, but a quote from somewhere else. Put a greater than symbol (`>`), followed be a space, before a paragraph to mark that quote as a blockquote. For instance, `> This is a blockquote.` will render as a quote:
 
   > This is a blockquote!
 
@@ -85,17 +85,21 @@ Codidact uses the [CommonMark implementation](https://commonmark.org) of Markdow
 
 * **Headings**
 
-  You can include a heading in your post. Using a single hash symbol (`#`) before a line of your post will create a large heading, while using two will create a slightly smaller heading.
+  You can include a heading in your post. Using a single hash symbol (`#`) before a line of your post will create a large heading, while adding another will create a slightly smaller heading (up to six different heading sizes).
 
 ```
 # Heading 1
 
 ## Heading 2
+
+###### Heading 6
 ```
 
   > # Heading 1
   >
   > ## Heading 2
+  >
+  > ###### Heading 6
 
 
 * **Footnotes**
