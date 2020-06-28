@@ -54,6 +54,6 @@ It's possible to filter your search to only include results that have been poste
 
 * weighting keywords
 
-  When searching with multiple keywords, you can weigh different keywords separately. Using a tilda before a word will lower that word's weight, and have Codidact sort results with that keyword more towards the back. For instance, `+snake ~oil` will find all posts that contain the word `snake`, but rank the results that also contain the word `oil` lower.
+  When searching with multiple keywords, you can weigh different keywords separately. Using a tilde before a word will lower that word's weight, and have Codidact sort results with that keyword more towards the back. For instance, `+snake ~oil` will find all posts that contain the word `snake`, but rank the results that also contain the word `oil` lower.
 
   If you're searching with parentheses, you can rank words within those parentheses differently. `+snake +(>skin <oil)` will find all posts that contain `snake` and either `skin` or `oil`, but will rank results that contain `skin` higher than the results that contain `oil`.
