@@ -12,7 +12,7 @@ Codidact uses the [CommonMark implementation](https://commonmark.org) of Markdow
 
 * **Monospace / code formatting**
 
-  To make a word monospace, you can surround it with a single backtick (<pre>`</pre>). This is generally used for code formatting. (Some people use this for emphasis. Don't do that! Screen readers will read out words formatted as code character by character - use *italics* or **bold** for emphasis instead.)
+  To make a word monospace, you can surround it with a single backtick (<code>&#96;</code>). This is generally used for code formatting. (Some people use this for emphasis. Don't do that! Screen readers will read out words formatted as code character by character - use *italics* or **bold** for emphasis instead.)
 
   To mark several lines as code, you can use a code fence. This is three backticks on a newline both on top and at the bottom of your lines of code. Don't use this for quotes - see below for guidance on quote formatting.
 
@@ -74,8 +74,8 @@ Codidact uses the [CommonMark implementation](https://commonmark.org) of Markdow
 
   This will render like this:
 
-     * List item one
-     * List item two
+>  * List item one
+>  * List item two
 
   If you want to create a numbered list, use `1.`, `2.`, etc instead of `*` or `-`.
 
