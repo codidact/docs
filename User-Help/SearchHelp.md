@@ -28,7 +28,7 @@ It's possible to filter your search to only include results that have been poste
 
 * filtering by Wilson score
 
-  Codidact uses Wilson scoring to help in sorting posts. (To learn more about how this works, see [/help/scoring](/help/scoring) for a detailed explanation.) To use this in search, you can use `score:50%` to filter your search to only include posts with a Wilson score of at least 50%.
+  Codidact uses Wilson scoring to help in sorting posts. (To learn more about how this works, see [/help/scoring](/help/scoring) for a detailed explanation.) To use this in search, you can use `score:0.5` to filter your search to only include posts with a Wilson score of at least 0.5.
 
 * filtering by votes
 
