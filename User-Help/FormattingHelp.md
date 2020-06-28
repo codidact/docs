@@ -97,8 +97,7 @@ Codidact uses the [CommonMark implementation](https://commonmark.org) of Markdow
   >
   > ## Heading 2
 
-* **Subscript and superscript**
 
-  While subscript and superscript isn't directly supported in Markdown, you can use the HTML tags `<sub>` and `<sup>`. `<sup>1</sup>` will create superscript, which can be used to create footnotes<sup>1</sup>.
+* **Footnotes**
 
-  <sub><sup>1</sup>As well as other uses, such as in chemical formulas (H<sup>2</sup>O, for instance).</sub>
+  To include a footnote in your post, you can use the syntax `[^1]`. In your main text, include `Text[^1] and more text`, and at the bottom (where you want to include your footnote), place a line resembling `[^1]: footnote text`.
