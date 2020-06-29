@@ -10,7 +10,7 @@ If your question isn't in scope for this site, you can check out our [list of co
 
 **Do some research**
 
-Before asking a new question, first take a look around. Has your question been asked before here on Codidact? You can [do a search on Codidact](/help/search) for keywords related to your question, or take to your favorite search engine to see if your answer is already there on Codidact.
+Before asking a new question, first take a look around. Has your question been asked before here on $Sitename Codidact? You can [do a search](/help/search) for keywords related to your question, or take to your favorite search engine to see if your answer is already there on Codidact.
 
 In addition to just making sure your question hasn't been asked already here on Codidact, take a few moments to search beyond the site. If you put your question title into a search engine, can you find the answer to your question in the first three results? If so, perhaps consider [alternative ways of sharing that information](/help/articles-blogs) here on Codidact, or writing a self-answered question to share that knowlege.
 
@@ -24,7 +24,7 @@ Questions like "What's your favorite way to eat an egg?" can't be answered objec
 
 **Be specific**
 
-Asking really broad questions often isn't very useful. Instead, narrow your question down to ask about one thing in particular. Asking "How do I care for a dragon?" would need several full-size books to answer, but "Is garlic safe for my dragon to eat?" is much more manageable. Be specific when asking a question, and don't ask questions that would need answers the size of books.
+Asking really broad questions often isn't very useful. Instead, narrow your question down to ask about one thing in particular. Asking "How do I care for a basil plant?" would need several full-size books to answer, but "When should I harvest my basil leaves?" is much more manageable. Be specific when asking a question, and don't ask questions that would need answers the size of books.
 
 **Include details**
 
@@ -33,5 +33,9 @@ The more details you include in your question, the better. Include any details t
 **Include examples and sources**
 
 When you're asking a question, it's almost always a good idea to include your *sources* and/or examples, depending on what exactly your question is about. You can almost always find a source to include that will provide some background information on whatever you're asking about; and including an example to show us what you're talking about, whether that's a photo, a writing sample, code fragment, or anything else, helps to improve your question.
+
+**Writing the question can help you understand the question**
+
+Sometimes the act of writing out your question helps you notice important details, and can even change what you end up asking in the end. You start out thinking you have a question about omelettes and, in writing it, realize that your question is really about skillets. This is why, when asking a question, we ask you to write the question out first and then give it a title. By the time you've explained your problem in the question body you should have discovered a clear, succinct title, which is the first thing people will see. Good questions have good titles.
 
 If you want to make sure that your question is a good fit for this site, you can always head over to our [Codidact Communities Discord server](https://discord.gg/jwjUA26), find the channel for this site, and ask if anybody would be willing to look over your question before you ask it.
