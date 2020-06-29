@@ -26,9 +26,9 @@ Let's say you want to search for the term `snake oil`. You have a few basic opti
 
 It's possible to filter your search to only include results that have been posted within a certain timeframe, or match certain score requirements.
 
-* filtering by Wilson score
+* filtering by post score
 
-  Codidact uses Wilson scoring to help in sorting posts. (To learn more about how this works, see [/help/scoring](/help/scoring) for a detailed explanation.) To use this in search, you can use `score:0.5` to filter your search to only include posts with a Wilson score of at least 0.5.
+  Codidact uses Wilson scoring to help in sorting posts. (To learn more about how this works, see [/help/scoring](/help/scoring) for a detailed explanation.) Every post has a score between 0.0 and 1.0. To use this in search, you can use `score:0.5` to filter your search to only include posts with a score of at least 0.5.
 
 * filtering by votes
 
@@ -36,7 +36,7 @@ It's possible to filter your search to only include results that have been poste
 
 * filtering by upvotes and downvotes
 
-  If you search for `upvotes:4`, Codidact will find posts that have received at least 4 upvotes, irrespective of how many downvotes the post has. Likewise, if you search for `downvotes:4`, Codidact will find posts that have received at least 4 downvotes without taking upvotes into consideration.
+  If you search for `upvotes:4`, Codidact will find posts that have received at least 4 upvotes, irrespective of how many downvotes the post has. Likewise, if you search for `downvotes:4`, Codidact will find posts that have received at least 4 downvotes without taking upvotes into consideration. You can also use a less than (`<`) symbol to filter for posts that have received no more than a certain number of votes (for instance, `downvotes:<4` will find posts that have received less than four downvotes total).
 
 * filtering by creation date
 
@@ -46,11 +46,11 @@ It's possible to filter your search to only include results that have been poste
 
 * wildcard
 
-  If you search with an asterisk (`*`) at the end of a word, such as `snake*`, Codidact will find all posts that contain words beginning with the letters `snake`, including words such as `snakeskin`.
+  If you search with an asterisk (`*`) at the end of a word, such as `snake*`, Codidact will find all posts that contain words beginning with the letters `snake`, including words such as `snakeskin`. (This does *not* work at the beginning of a word; only the end.)
 
 * results for either one of two words
 
-  Searching with parenthes will allow you to search for a keyword, and either one of two other words. For instance, `+oil +(snake palm)` will find posts that contain the word `oil` and either the word `palm` or `snake`.
+  Searching with parentheses will allow you to search for a keyword, and either one of two other words. For instance, `+oil +(snake palm)` will find posts that contain the word `oil` and either the word `palm` or `snake`.
 
 * weighting keywords
 
