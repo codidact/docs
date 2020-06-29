@@ -39,7 +39,7 @@ Codidact uses the [CommonMark implementation](https://commonmark.org) of Markdow
 
 * **Blockquotes**
 
-  When quoting text from somewhere else, you can use a blockquote to signify that this is not your original text, but a quote from somewhere else. Put a greater than symbol (`>`), followed be a space, before a paragraph to mark that quote as a blockquote. For instance, `> This is a blockquote.` will render as a quote:
+  When quoting text from somewhere else, you can use a blockquote to signify that this is not your original text, but a quote from somewhere else. Put a greater than symbol (`>`), followed by a space, before a paragraph to mark that quote as a blockquote. For instance, `> This is a blockquote.` will render as a quote:
 
   > This is a blockquote!
 
@@ -77,11 +77,11 @@ Codidact uses the [CommonMark implementation](https://commonmark.org) of Markdow
 >  * List item one
 >  * List item two
 
-  If you want to create a numbered list, use `1.`, `2.`, etc instead of `*` or `-`.
+  If you want to create a numbered list, use `1.`, `2.`, etc instead of `*` or `-`. Note that the exact number you use, in most cases, is irrelevant - after the first number that you use, no matter what number you put in, Codidact will automatically number it in order. For instance, if you create a list and type `1. List item #1` for the first line, then `3. List item #2` for the second line, Codidact will automatically render the `3.` as a `2.`. If you begin your list at any other number, such as your first list item is numbered `5.`, Codidact will continue from that number onwards (with the next number automatically rendering as `6.`).
 
 * **Horizontal line**
 
-  You can use a horizontal line for separating sectiond of your post. Use `---` on its own line to generate a horizontal line.
+  You can use a horizontal line for separating sections of your post. Use `---` on its own line to generate a horizontal line.
 
 * **Headings**
 
