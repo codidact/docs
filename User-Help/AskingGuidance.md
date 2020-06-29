@@ -4,7 +4,7 @@ The best way to get a perfect answer to your questions is to ask a great questio
 
 **Make sure your question is in scope**
 
-Every Codidact site has its own guidelines for what topics are able to be asked about on that site. You wouldn't want to ask about frying eggs on [Writing](https://writing.codidact.com), or bicycle maintainence on [Cooking](https://cooking.codidact.com). See [$SiteName's scope guidelines here](/help/scope).
+Every Codidact site has its own guidelines for what topics are able to be asked about on that site. You wouldn't want to ask about frying eggs on [Writing](https://writing.codidact.com), or bicycle maintainence on [Cooking](https://cooking.codidact.com). See [$SiteName's scope guidelines here](/help/faq).
 
 If your question isn't in scope for this site, you can check out our [list of communities](https://codidact.com) to see if another site fits your needs. If what you're looking for isn't there, you can always propose a new site on [Codidact Meta](https://meta.codidact.com).
 
