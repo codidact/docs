@@ -61,7 +61,7 @@ Codidact uses the [CommonMark implementation](https://commonmark.org) of Markdow
 
 * **Images**
 
-  Embedding images in a post is very similar to the formatting for links (detailed above). The format `![alt text](image URL)` will embed an image in your post. Please remember to write alt text for your image! Codidact allows you to upload an image directly, or you can embed an external image from image hosting sites such as Imgur.
+  Embedding images in a post is very similar to the formatting for links (detailed above). The format `![alt text](image URL)` will embed an image in your post. Please remember to [write alt text for your image](/help/alt-text)! Codidact allows you to upload an image directly, or you can embed an external image from image hosting sites such as Imgur.
 
 * **Lists**
 
