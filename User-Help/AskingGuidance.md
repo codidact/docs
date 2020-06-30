@@ -12,7 +12,7 @@ If your question isn't in scope for this site, you can check out our [list of co
 
 Before asking a new question, first take a look around. Has your question been asked before here on $Sitename Codidact? You can [do a search](/help/search) for keywords related to your question, or take to your favorite search engine to see if your answer is already there on Codidact.
 
-In addition to just making sure your question hasn't been asked already here on Codidact, take a few moments to search beyond the site. If you put your question title into a search engine, can you find the answer to your question in the first three results? If so, perhaps consider [alternative ways of sharing that information](/help/articles-blogs) here on Codidact, or writing a self-answered question to share that knowlege.
+In addition to just making sure your question hasn't been asked already here on Codidact, take a few moments to search beyond the site. If you put your question title into a search engine, can you find the answer to your question in the first three results? If so, perhaps consider [alternative ways of sharing that information](/help/articles) here on Codidact, or writing a self-answered question to share that knowlege.
 
 **Include your end goal**
 
