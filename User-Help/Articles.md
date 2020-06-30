@@ -16,7 +16,7 @@ Articles can be used in several different ways. Some sites have a blog, where pe
 
 By default, all sites start out with two main category types: Main Q&A, which is where the main Q&A content for the site goes; and Meta, where people can discuss the site itself. 
 
-In additon, many sites have additional categories. For instance, [Writing](https://writing.codidact.com) has a category for Writing Challenges, while [Cooking](https://cooking.codidact.com) has a category for sharing Recipes.
+In additon, many sites have additional categories. For instance, [Writing](https://writing.codidact.com) has a category for Writing Challenges, [Cooking](https://cooking.codidact.com) has a category for sharing Recipes, and [Codidact Meta](https://meta.codidact.com) has a category for a [site Blog](https://meta.codidact.com/categories/30) (where the Codidact Team shares updates).
 
 A category can use the Q&A post type, such as Writing's writing challenges, where people post entries as answers to a question; or they can use an article post type, such as Cooking's recipes; or they can use both, and have both articles and Q&A allowed in that category.
 
