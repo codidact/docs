@@ -1,3 +1,7 @@
+| URL slug | Category |
+|:--------:|:--------:|
+| articles | Site Information |
+
 ## Categories and post types
 
 In addition to just Q&A, here on Codidact each site can also add several different categories of posts. This is useful for different types of knowlege sharing, as well as for site activities and community building. These categories can contain different post types.
