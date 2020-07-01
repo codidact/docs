@@ -1,3 +1,7 @@
+| URL slug | Category |
+|:--------:|:--------:|
+| moderator | $Moderator |
+
 # So you're a moderator now
 So you've been given moderator status on a Codidact site. Welcome! This is what that means for you.
 
