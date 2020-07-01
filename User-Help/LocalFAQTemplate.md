@@ -1,4 +1,6 @@
-<!--- Customizable FAQ for local sites -->
+| URL slug | Category |
+|:--------:|:--------:|
+| faq | Site Information |
 
 # $sitename FAQ
 
