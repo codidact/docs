@@ -1,4 +1,6 @@
-<!--- Explanation of what Trust Levels, how they are calculated, and how to earn then -->
+| URL slug | Category | Status |
+|:--------:|:--------:|:-------|
+| trust-levels | Site Information | Pending QPixel development |
 
 # Trust Level Overview
 
