@@ -1,3 +1,7 @@
+| URL slug | Category |
+|:--------:|:--------:|
+| search | Site Information |
+
 ## Codidact search options
 
 While searching on a Codidact site, you have several options to help refine your search and make it easier to find what you're looking for. Searching will search all posts across that site, including Questions, Answers, Meta posts, and whatever other post types your site may have.
