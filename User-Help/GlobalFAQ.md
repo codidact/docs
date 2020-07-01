@@ -1,4 +1,6 @@
-<!--- Codidact FAQ -->
+| URL slug | Category |
+|:--------:|:--------:|
+| codidact-faq | About Codidact |
 
 # Codidact FAQ
 
