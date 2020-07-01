@@ -1,3 +1,7 @@
+| URL slug | Category |
+|:--------:|:--------:|
+| formatting | Site Information |
+
 ## How to format posts
 
 Codidact uses the [CommonMark implementation](https://commonmark.org) of Markdown for formatting posts.
