@@ -55,4 +55,4 @@ Sorry, you have already flagged this post for $reason. A moderator will review i
 
 
 ## If the user has reached the limit of pending flags: 
-Sorry, you have reached the maximum number of flags allowed at your trust level. A moderator will review your other tags shortly. For more information, go to $tl-help-page or $flags-help-page. 
+Sorry, you have reached the maximum number of flags allowed at your trust level. A moderator will review your other flags shortly. For more information, go to $tl-help-page or $flags-help-page. 
