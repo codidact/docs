@@ -1,3 +1,7 @@
+| URL slug | Category |
+|:--------:|:--------:|
+| alt-text | Guidance |
+
 ## How to write good alt text
 
 ### What is alt text and why should I care about it?
