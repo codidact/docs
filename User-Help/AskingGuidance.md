@@ -1,3 +1,7 @@
+| URL slug | Category |
+|:--------:|:--------:|
+| how-to-ask | Guidance |
+
 ## How to ask a great question
 
 The best way to get a perfect answer to your questions is to ask a great question. The better your question is, the easier it will be for someone to be able to give you the answer you need. Here are a few things to keep in mind when asking questions.
