@@ -8,6 +8,10 @@ Please select a flag reason...
 
 This comment is rude, disrespectful, or otherwise violates our [Code of Conduct](/policy/code-of-conduct).
 
+**Spam**
+
+This comment violates our [policies on promotional content](/policy/spam).
+
 **Obsolete**
 
 This comment has been addressed via edits or other changes and is obsolete.
