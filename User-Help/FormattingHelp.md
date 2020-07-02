@@ -52,7 +52,7 @@ Codidact uses the [CommonMark implementation](https://commonmark.org) of Markdow
 ```
   > This is a blockquote!
   >
-  >This is part of the same quote!
+  > This is part of the same quote!
 ```
 
   This will render as a single blockquote:
