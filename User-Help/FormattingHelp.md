@@ -43,7 +43,7 @@ Codidact uses the [CommonMark implementation](https://commonmark.org) of Markdow
 
 * **Blockquotes**
 
-  When quoting text from somewhere else, you can use a blockquote to signify that this is not your original text, but a quote from somewhere else. Put a greater than symbol (`>`), followed by a space, before a paragraph to mark that quote as a blockquote. For instance, `> This is a blockquote.` will render as a quote:
+  When quoting text from somewhere else, you can use a blockquote to signify that this is not your original text, but a quote from somewhere else. Put a greater than symbol (`>`), followed by a space, before a paragraph to mark that quote as a blockquote. For instance, `> This is a blockquote!` will render as a quote:
 
   > This is a blockquote!
 
