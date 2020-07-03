@@ -12,6 +12,10 @@ Codidact is an open-source initiative to provide a high-quality, community-contr
 
 Users just like you! The software is built and hosted by volunteers who are passionate about the need for a community-driven Q&A site. Each site is moderated by a team of dedicated, experienced users who spend their time weeding out spam, coaching newcomers, and ensuring questions are on-topic and high-quality. 
 
+As of July 2020, the current organisation structure looks like this:
+
+[![Team Lead: ArtOfCode. Underneath Team Lead are Community Lead (cellio) and Tech Lead (luap42), as well as Group Leader: Design (mattjbrent) and the Admin role. Under Tech Lead are Group Leader: Backend and Group Leader: Frontend (Kieran). Under Community Lead is Group Leader: Developer Docs (Mithrandir24601) and Group Leader: User Docs (Sarah & Mithical). Off to the side is Project Leaders, and underneath the Project Leaders, Admins, and Group Leaders are Contributors.][1]][1]
+
 ## How do I ask a question?
 
 You will need to register an account. Make sure you are logged into the appropriate topic-related site for your question and click the "Ask Question" button at the top of the page. A template should appear with helpful guidelines on how to ask a quality question. Note that some communities may require you to have a certain trust level before asking a question; always check out the local FAQ page for important information before contributing.
@@ -33,4 +37,4 @@ Most posts fall under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/
 The best way to contribute is by joining a community and submitting quality questions and answers! If you want to join our technical team, check out our GitHub site [here](https://www.github.com/codidact) to get started. 
 
 
-
+[1]: /assets/codidact-org.png
