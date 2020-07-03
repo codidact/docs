@@ -11,15 +11,15 @@ On Codidact, answers to questions are sorted by their scores, so that you'll see
 ## Calculations Used
 
 The actual score of a particular post is calculated as 
-![(upvote_count + z^2/2)/(upvote_count + downvote_count + z^2)](scoring_formula.png)
+![(upvote_count + z^2/2)/(upvote_count + downvote_count + z^2)](/assets/scoring_formula.png)
 
 This uses a modified form of a [Wilson Score](https://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval#Wilson_score_interval), assuming a binomial distribution. By default the weighting constant _z_ is two, but each community can change this to another value as they see fit. Several charts and graphs showing the default weighting distribution are shown below. 
 
-![table of scores with the values for all upvote and downvote combinations from one to ten](scoring_table.png)
+![table of scores with the values for all upvote and downvote combinations from one to ten](/assets/scoring_table.png)
 This table shows the scores for each combination of upvotes and downvotes where _z_ = 2. 
 
-![lines in a cartesian coordinate plane sloping from upper left to lower right and converging as z increases](scoring_distribution.png)
+![lines in a cartesian coordinate plane sloping from upper left to lower right and converging as z increases](/assets/scoring_distribution.png)
 Diagram showing the distribution in scores where upvotes less downvotes = 3 for different values of z
 
-![a 3D diagram showing the score distribution for upvotes and downvotes](scoring_3d.png)
+![a 3D diagram showing the score distribution for upvotes and downvotes](/assets/scoring_3d.png)
 
