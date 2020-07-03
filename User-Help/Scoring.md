@@ -1,3 +1,6 @@
+| URL slug | Category |
+|:--------:|:--------:|
+| scoring  | Site Information |
 
 # Answer scoring and ordering
 
