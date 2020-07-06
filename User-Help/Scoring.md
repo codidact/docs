@@ -6,7 +6,7 @@
 
 ## Overview 
 
-On Codidact, answers to questions are sorted by their scores, so that you'll see the best-received answers first. Each answer a score based on a ratio of upvotes to total votes, weighted to favor posts with fewer downvotes. For example, a post with seven upvotes will be shown higher than a post with nine upvotes and two downvotes. This method gives a slight boost to contributions that are consistently viewed positively over more controversial answers that gather both upvotes and downvotes. 
+On Codidact, answers to questions are sorted by their scores, so that you'll see the best-received answers first. Each answer has a score based on a ratio of upvotes to total votes, weighted to favor posts with fewer downvotes. For example, a post with seven upvotes will be shown higher than a post with nine upvotes and two downvotes. This method gives a slight boost to contributions that are consistently viewed positively over more controversial answers that gather both upvotes and downvotes. 
 
 ## Calculations Used
 
