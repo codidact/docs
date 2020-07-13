@@ -16,10 +16,12 @@ The actual score of a particular post is calculated as
 This uses a modified form of a [Wilson Score](https://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval#Wilson_score_interval), assuming a binomial distribution. By default the weighting constant _z_ is two, but each community can change this to another value as they see fit. Several charts and graphs showing the default weighting distribution are shown below. 
 
 ![table of scores with the values for all upvote and downvote combinations from one to ten](/assets/scoring_table.png)
+
 This table shows the scores for each combination of upvotes and downvotes where _z_ = 2. 
 
 ![lines in a cartesian coordinate plane sloping from upper left to lower right and converging as z increases](/assets/scoring_distribution.png)
-Diagram showing the distribution in scores where upvotes less downvotes = 3 for different values of z
+
+Diagram showing the distribution in scores where upvotes less downvotes = 3 for different values of z. 
 
 ![a 3D diagram showing the score distribution for upvotes and downvotes](/assets/scoring_3d.png)
 
