@@ -75,7 +75,7 @@ We don't expect anyone to have perfect English, but it's a lot easier to underst
 
 Make sure to read through your question preview before posting. Put yourself in the shoes of another site-user, and make sure you can easily understand the problem without additional context. Clarify anything that is unclear, and fix any grammatical or formatting errors you notice. Often reading out loud will help you catch awkward phrasing. 
 
-### Add tags. 
+### Add tags 
 
 Tags help community members filter questions by topic. Look for preexisting tags that fit your subject, or create your own if necessary. 
 
