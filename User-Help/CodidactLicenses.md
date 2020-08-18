@@ -1,6 +1,6 @@
-# A guide to possible licenses on Codidact sites
+# A guide to available licenses on Codidact sites
 
-When writing a post, you have to choose what license you're sharing that work under. Different sites and different categories may have different defaults, but you can choose which license you want to apply to that specific post. Here you can find a brief, human-readable explanation of what each license means. For legal reasons, this does _not_ replace reading the actual license, which can be found linked on the Creative Commons website or by the license on each post.
+When writing a post, you have to choose what license you're sharing that work under. Different sites and categories may have different defaults, but you can choose which license you want to apply to that specific post. Here you can find a brief, human-readable explanation of what each license means. For legal reasons, this does _not_ replace reading the actual license, which can be found linked on the Creative Commons website or by the license on each post.
 
 ## [CC0: No Rights Reserved](https://creativecommons.org/share-your-work/public-domain/cc0/)
 
