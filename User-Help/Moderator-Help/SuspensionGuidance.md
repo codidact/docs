@@ -1,3 +1,7 @@
+| URL slug | Category |
+|:--------:|:--------:|
+| warnings | Moderator Information |
+
 # Guidance on warnings and suspensions
 
 As a moderator, you have the ability to issue warnings and suspensions to users through a special moderator-only system. This allows you to let users know when they've broken rules, and to suspend problematic users.
