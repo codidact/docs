@@ -46,3 +46,5 @@ Some other points to keep in mind:
 **Avoid dealing with moderator business off-site**. Anything related to moderation should stay on a Codidact platform, such as the Codidact sites or a Codidact Discord server, where the rest of your moderator team and the Codidact Team can view everything if necessary. (Even Discord DMs should be avoided; instead, channels on a Codidact Discord server will be made available.)
 
 **Avoid extensively arguing about your actions**. If someone tries to dispute a warning or suspension with you, it's often not productive to discuss it with this user. The proper way to dispute a warning or suspension is to elevate it to the Codidact Team or Codidact Arbitration & Review Panel. Don't get dragged into lengthy arguments about the validity of your decision.
+
+**Breaking the _spirit_ of the law is also a problem**. If you have a user who's continuously causing problems within your community, _that's a problem_, even if they're not technically breaking the letter of the law. If a user like this is causing problems, "breaking the community" is a valid reason for a warning or suspension.
