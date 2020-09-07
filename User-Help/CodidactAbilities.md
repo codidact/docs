@@ -9,7 +9,7 @@ This ability also allows you to raise 15 flags on posts a day.
 
 ## How do I earn this ability?
 
-This ability is automatically granted to you when you create an account.
+This ability is automatically granted when you create an account.
 
 **Participate Generally**
 
@@ -21,7 +21,7 @@ This ability allows you to post questions, articles, and answers without limit, 
 
 ## How do I earn this ability?
 
-To earn this ability, you need to have roughly 75% of your posts be positively received, with a hard minimum of 5 positively-recieved posts (these numbers may vary from site to site). 
+To earn this ability, you need to have roughly 75% of your posts be positively received, with a hard minimum of 5 positively-received posts (these numbers may vary from site to site). 
 
 **Edit Posts**
 
@@ -30,7 +30,7 @@ To earn this ability, you need to have roughly 75% of your posts be positively r
 ## What does this ability allow me to do?
 
 This ability allows you to unilaterally edit posts, as well as review suggested edits from other users.  
-Edits should be used to improve posts, including edits improving spelling, grammar, and formatting, as well as fixes for missing [alt text](/help/alt-text), broken images and links, and other improvements. Edits should, however, respect the goal of the original poster.  
+Edits should be used to improve posts, including edits improving spelling, grammar, and formatting, as well as fixes for missing [alt text](/help/alt-text), broken images and links, and other improvements. Edits should always respect the goal of the original poster.  
 
 > ![Edit post button](https://meta.codidact.com/uploads/PW9TNLAZwQWfaX1RMCBEbHDt)
 
