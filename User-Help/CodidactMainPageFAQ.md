@@ -2,7 +2,7 @@
 
 ## Why do we need Codidact when Stack Exchange exists?
 
-Codidact aims to create a Questions & Answers platform that is more than just Q&A: We're here to serve the needs of the community. We differ from Stack Exchange in several core ways, of which perhaps the most significant is that Stack Exchange is a for-profit company while Codidact is currently run by volunteers, with plans to create a non-profit entity in the future. This means that instead of focusing on profit, we can focus entirely on the needs of our communities. You can read more in [The Codidact Vision](https://meta.codidact.com/articles/276296).
+Codidact aims to create a Questions & Answers platform that is more than just Q&A: We're here to serve the needs of the community. We differ from Stack Exchange in several core ways, of which perhaps the most significant is that Stack Exchange is a for-profit company while Codidact is currently run by volunteers and incorporated as a UK Community Interest Company. This means that instead of focusing on profit, we can focus entirely on the needs of our communities. You can read more in [The Codidact Vision](https://meta.codidact.com/articles/276296).
 
 ## What communities currently exist on Codidact?
 
