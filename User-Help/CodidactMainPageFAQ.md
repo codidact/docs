@@ -1,12 +1,20 @@
+<!--->
+NOTES FOR EDITING THIS FILE:
+
+The FAQ on codidact.org is loaded directly from this file. On the website, everything that's "# Text" or has an <h1> heading is IGNORED. "## Text" is displayed as a QUESTION, and the paragraph directly underneath it is the ANSWER to that QUESTION.
+
+Anything that breaks that format WILL BREAK THE .ORG PAGE.
+</!---->
+
 # Frequently Asked Questions
 
 ## Why do we need Codidact when Stack Exchange exists?
 
-Codidact aims to create a Questions & Answers platform that is more than just Q&A: We're here to serve the needs of the community. We differ from Stack Exchange in several core ways, of which perhaps the most significant is that Stack Exchange is a for-profit company while Codidact is currently run by volunteers and incorporated as a UK Community Interest Company. This means that instead of focusing on profit, we can focus entirely on the needs of our communities. You can read more in [The Codidact Vision](https://meta.codidact.com/articles/276296).
+Codidact aims to create a Questions & Answers platform that is more than just Q&A: We're here to serve the needs of the community. We differ from Stack Exchange in several core ways, of which perhaps the most significant is that Stack Exchange is a for-profit company while Codidact is currently run by volunteers and incorporated as a UK Community Interest Company (CIC). This means that instead of focusing on profit, we can focus entirely on the needs of our communities. You can read more in [The Codidact Vision](https://meta.codidact.com/articles/276296).
 
 ## What communities currently exist on Codidact?
 
-You can see a full list of sites on https://codidact.com.
+You can see a full list of communities on https://codidact.com.
 
 ## Where is the source code for Codidact?
 
