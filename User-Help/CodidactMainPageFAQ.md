@@ -1,10 +1,4 @@
-<!--->
-NOTES FOR EDITING THIS FILE:
-
-The FAQ on codidact.org is loaded directly from this file. On the website, everything that's "hashtag Text" or has an h1 heading is IGNORED. "double hashtag Text" is displayed as a QUESTION, and the paragraph directly underneath it is the ANSWER to that QUESTION.
-
-Anything that breaks that format WILL BREAK THE .ORG PAGE.
-</!---->
+<!--- NOTES FOR EDITING THIS FILE: The FAQ on codidact.org is loaded directly from this file. On the website, everything that's "hashtag Text" or has an h1 heading is IGNORED. "double hashtag Text" is displayed as a QUESTION, and the paragraph directly underneath it is the ANSWER to that QUESTION. Anything that breaks that format WILL BREAK THE .ORG PAGE. ---->
 
 # Frequently Asked Questions
 
