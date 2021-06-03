@@ -24,7 +24,6 @@ module.exports = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -65,16 +64,12 @@ module.exports = {
                   <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" />
                 </a>
               `,
-            },            
+            },
           ],
         },
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
             {
               label: 'GitHub',
               href: 'https://github.com/codidact',
@@ -94,11 +89,11 @@ module.exports = {
           editUrl:
             'https://github.com/codidact/docs/edit/master/',
         },
-        blog: {
-          showReadingTime: true,
-          editUrl:
-            'https://github.com/codidact/docs/edit/master/',
-        },
+        //blog: {
+        //  showReadingTime: true,
+        //  editUrl:
+        //    'https://github.com/codidact/docs/edit/master/',
+        //},
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
