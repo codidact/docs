@@ -2,7 +2,7 @@
 module.exports = {
   title: 'Codidact Docs',
   tagline: 'Q&A by the community, for the community',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://codidact-docs.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
