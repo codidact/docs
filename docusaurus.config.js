@@ -13,8 +13,9 @@ module.exports = {
     navbar: {
       title: 'Codidact Docs',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Codidact Logo',
         src: 'img/logo.svg',
+        srcDark: "img/logo-dark.svg",
       },
       items: [
         {
@@ -74,7 +75,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} The Codidact Foundation CIC. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} The Codidact Foundation CIC`,
     },
   },
   presets: [
@@ -89,7 +90,7 @@ module.exports = {
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/codidact/docs/edit/master/blog/',
+            'https://github.com/codidact/docs/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
