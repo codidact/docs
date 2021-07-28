@@ -26,7 +26,7 @@ Let's say you want to search for the term `snake oil`. You have a few basic opti
 
   If you want to search for `snake` but exclude the word `oil` from your results, you can do a search for `snake -oil`. Codidact will find posts that contain the word `snake` but do not have the word `oil`.
 
-**Filtering by score, age, tag, or user**
+**Filtering by score, answers, or age**
 
 It's possible to filter your search to only include results that have been posted within a certain timeframe, or match certain score requirements.
 
@@ -42,17 +42,30 @@ It's possible to filter your search to only include results that have been poste
 
   If you search for `upvotes:4`, Codidact will find posts that have received at least 4 upvotes, irrespective of how many downvotes the post has. Likewise, if you search for `downvotes:4`, Codidact will find posts that have received at least 4 downvotes without taking upvotes into consideration. You can also use a less than (`<`) symbol to filter for posts that have received no more than a certain number of votes (for instance, `downvotes:<4` will find posts that have received less than four downvotes total).
 
+* filtering by number of answers
+  If you want to find posts with n answers, use `answers:n`. This is particularly helpful to find unanswered questions: `answers:0`. You can also use greater and less than symbols to find posts with a range of answers, e.g. `answers:<5` shows posts with fewer than five answers. 
+
 * filtering by creation date
 
   If you want to only find posts that have been written within a certain timeframe, you can use the `created:` search operator. `created:<1w` will find all posts created less than a week ago, where `created:>1w` will find only posts older than a week. You can use `m` for minute, `h` for hour, `d` for day, `w` for week, `mo` for month, and `y` for year. 
   
+**Filtering by tag, user, category, or post type**
+
 * filtering by tag
 
   To filter for all posts with the tag `snake`, use the `tag:snake` operator. To exclude all posts with the tag `oil`, use `-tag:oil`. 
-
+  
 * filtering by user
 
   If you want to search for posts written by a particular user you will need to know their unique user number for the community. This can be found by looking at their profile url. You can then use `user:xxxx` where xxxx is the unique user number you are interested in. 
+  
+* filtering by category
+  
+  To filter by category, you will need to know the unique numeric id for that category. This can be found by looking at the url shown when you click to view all posts in a particular category. Use the formatting `category:xxxx` to apply this filter. 
+  
+* filtering by post type
+  
+  If you want to restrict your search to a particular post type, type `post_type:` into the search bar, and a dropdown menu should show the available post types to search. Note that not all communities may use all post types. 
 
 **Advanced**
 
