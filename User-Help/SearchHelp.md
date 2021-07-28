@@ -42,7 +42,7 @@ It's possible to filter your search to only include results that have been poste
 
   If you search for `upvotes:4`, Codidact will find posts that have received at least 4 upvotes, irrespective of how many downvotes the post has. Likewise, if you search for `downvotes:4`, Codidact will find posts that have received at least 4 downvotes without taking upvotes into consideration. You can also use a less than (`<`) symbol to filter for posts that have received no more than a certain number of votes (for instance, `downvotes:<4` will find posts that have received less than four downvotes total).
 
-* filtering by answers
+* filtering by number of answers
   If you want to find posts with n answers, use `answers:n`. This is particularly helpful to find unanswered questions: `answers:0`. You can also use greater and less than symbols to find posts with a range of answers, e.g. `answers:<5` shows posts with fewer than five answers. 
 
 * filtering by creation date
