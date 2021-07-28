@@ -26,7 +26,7 @@ Let's say you want to search for the term `snake oil`. You have a few basic opti
 
   If you want to search for `snake` but exclude the word `oil` from your results, you can do a search for `snake -oil`. Codidact will find posts that contain the word `snake` but do not have the word `oil`.
 
-**Filtering by score and age**
+**Filtering by score, age, tag, or user**
 
 It's possible to filter your search to only include results that have been posted within a certain timeframe, or match certain score requirements.
 
@@ -45,6 +45,14 @@ It's possible to filter your search to only include results that have been poste
 * filtering by creation date
 
   If you want to only find posts that have been written within a certain timeframe, you can use the `created:` search operator. `created:<1w` will find all posts created less than a week ago, where `created:>1w` will find only posts older than a week. You can use `m` for minute, `h` for hour, `d` for day, `w` for week, `mo` for month, and `y` for year. 
+  
+* filtering by tag
+
+  To filter for all posts with the tag `snake`, use the `tag:snake` operator. To exclude all posts with the tag `oil`, use `-tag:oil`. 
+
+* filtering by user
+
+  If you want to search for posts written by a particular user you will need to know their unique user number for the community. This can be found by looking at their profile url. You can then use `user:xxxx` where xxxx is the unique user number you are interested in. 
 
 **Advanced**
 
