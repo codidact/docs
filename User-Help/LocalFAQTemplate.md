@@ -4,7 +4,7 @@
 
 # $sitename FAQ
 
-Welcome to $sitename! We're glad you're here. The following information is relevant primarily within this community. If you have a question that applies to the entire Codidact family of communities, you may want to look at our [Global FAQ](https://www.codidact.com/FAQ) or [Global TOS](https:www.codidact.com/TOS). 
+Welcome to $sitename! We're glad you're here. The following information is relevant primarily within this community. If you have a question that applies to the entire Codidact family of communities, you may want to look at our [Global FAQ](https://www.codidact.com/FAQ) or [Global ToS](https:www.codidact.com/TOS). 
 
 <!--- Tell your users the purpose of the community, who its members are, and the topics it welcomes -->
 ## What is this community all about? 
@@ -13,9 +13,9 @@ This community is for... <!-- the summary line from the site propoasl is a good 
 <!--- Links to the moderators' profiles may be helpful -->
 <!--- ## Who are the moderators? -->
 
-<!--- If you have additional rules or guidelines beyond the TOS -->
+<!--- If you have additional rules or guidelines beyond the ToS -->
 ## What are the rules on this community?
-This community currently has no additional guidelines beyond the Codidact TOS and Code of Conduct.
+This community currently has no additional guidelines beyond the Codidact ToS and Code of Conduct.
 
 <!--- If you have a trust level or other custom authorization requirement --> 
 ## Why can't I post a question? 
