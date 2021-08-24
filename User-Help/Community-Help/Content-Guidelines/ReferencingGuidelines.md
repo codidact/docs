@@ -1,8 +1,8 @@
 | URL slug | Category |
 |:--------:|:--------:|
-| referencing | Guidance |
+| referencing | Content Guidance |
 
-## Guidelines for referencing and quoting on Codidact sites
+## Guidelines for referencing and quoting on Codidact communities
 
 When you're writing a post, referencing and quoting external material is a great way to back up your posts, provide sources, and increase the quality of what you're writing. There are, however, a few thing to keep in mind when quoting external material.
 

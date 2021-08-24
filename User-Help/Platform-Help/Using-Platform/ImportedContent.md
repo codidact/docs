@@ -1,3 +1,7 @@
+| URL slug | Category |
+|:--------:|:--------:|
+| categories | Using the Platform |
+
 **Claiming imported content**
 
 Codidact contains a number of posts imported from Stack Exchange. When these posts are imported, Codidact saves the original author on Stack Exchange and creates a "placeholder" owner on Codidact. The imported posts then are attributed to this placeholder account on Codidact, since the author on Stack Exchange does not necessarily have a Codidact account to attribute the posts to. The posts also link back to the original post on Stack Exchange and to the author on Stack Exchange.
