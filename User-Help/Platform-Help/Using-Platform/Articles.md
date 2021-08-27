@@ -12,7 +12,7 @@ Currently, we have two main post types: Q&A (questions and answers), and article
 
 Q&A is what forms, in most cases, the majority of the content on the site. Both the default Q&A and Meta categories use the Q&A post type.
 
-One of the main technical differences between articles and Q&A is that articles can't be answered, as well as having a `/articles/` path in the post URL. (Q&A uses a `/questions/` path.)
+The main technical difference between articles and Q&A is that articles can't be answered.
 
 Articles can be used in several different ways. Some sites have a blog, where people can post about topics that are of interest to that community, as well as site updates (and, really, whatever that community decides). Other communities use articles to post information that doesn't quite fit in a Q&A format - such as tutorials, reviews, or recommendations.
 
