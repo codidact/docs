@@ -1,6 +1,6 @@
 | URL slug | Category |
 |:--------:|:--------:|
-| how-to-ask | Guidance |
+| how-to-ask | Content Guidance |
 
 # How to ask a great question
 
@@ -32,9 +32,9 @@ Asking really broad questions often isn't very useful. Instead, narrow your ques
 
 ### Does your community or category have any special requirements?
 
-Check out your community help pages to see if they have any special Q&A requirements. For example, they might require a photo, technical specifications, or have a template for you to follow. Gather any information you might need before starting your question. 
+Check out your community help pages to see if they have any special Q&A requirements. For example, they might require a photo, technical specifications, or have a template for you to follow. Gather any information you might need before starting your question.
 
-<!--- Mods, feel free to link any special Q&A help here --> 
+<!--- Mods, feel free to link any special Q&A help here -->
 
 ## Writing your question
 
@@ -52,38 +52,38 @@ Sometimes the act of writing out your question helps you notice important detail
 
 ### Include a good title
 
-Your title should explain the problem you're trying to solve. Try to summarize your goal so that someone knows if they can answer it before clicking on the question. Be specific but concise. 
+Your title should explain the problem you're trying to solve. Try to summarize your goal so that someone knows if they can answer it before clicking on the question. Be specific but concise.
 
-*Avoid*: Help! 
+*Avoid*: Help!
 
 *Avoid*: Help! Unicorn trouble.
 
-*Not a question (avoid)*: Unicorns are in my garden. 
+*Not a question (avoid)*: Unicorns are in my garden.
 
 *Good*: How can I keep unicorns from jumping over my garden fence?
 
 ### Use good writing practices
 
-We don't expect anyone to have perfect English, but it's a lot easier to understand your question if you follow some basic writing rules. 
+We don't expect anyone to have perfect English, but it's a lot easier to understand your question if you follow some basic writing rules.
 
-- Use paragraphs (a double line-break in Markdown). Separating ideas into their own sections makes your question much easier to read than a wall of text. Additional formatting help can be found [here](/help/formatting). 
-- Capitalize the first word of your sentences, and end a sentence with a period. 
-- Avoid long, run-on sentences. Be concise. 
-- Don't use specialzed jargon or acronyms. If you do use a specialized term that may be unfamiliar to your audience, be sure to define it. 
+- Use paragraphs (a double line-break in Markdown). Separating ideas into their own sections makes your question much easier to read than a wall of text. Additional formatting help can be found [here](/help/formatting).
+- Capitalize the first word of your sentences, and end a sentence with a period.
+- Avoid long, run-on sentences. Be concise.
+- Don't use specialzed jargon or acronyms. If you do use a specialized term that may be unfamiliar to your audience, be sure to define it.
 
 ### Proofread
 
-Make sure to read through your question preview before posting. Put yourself in the shoes of another site-user, and make sure you can easily understand the problem without additional context. Clarify anything that is unclear, and fix any grammatical or formatting errors you notice. Often reading out loud will help you catch awkward phrasing. 
+Make sure to read through your question preview before posting. Put yourself in the shoes of another site-user, and make sure you can easily understand the problem without additional context. Clarify anything that is unclear, and fix any grammatical or formatting errors you notice. Often reading out loud will help you catch awkward phrasing.
 
-### Add tags 
+### Add tags
 
-Tags help community members filter questions by topic. Look for preexisting tags that fit your subject, or create your own if necessary. 
+Tags help community members filter questions by topic. Look for preexisting tags that fit your subject, or create your own if necessary.
 
-# After posting 
+# After posting
 
 ### Follow up on comments and suggested edits
 
-Despite your best intentions, you might have left out a crucial piece of information needed to answer your question. If you get comments requesting clarification or additional information, take them seriously; everyone is trying to help. 
+Despite your best intentions, you might have left out a crucial piece of information needed to answer your question. If you get comments requesting clarification or additional information, take them seriously; everyone is trying to help.
 
 
 ---

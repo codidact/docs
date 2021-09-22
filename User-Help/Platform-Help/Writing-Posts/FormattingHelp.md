@@ -1,6 +1,6 @@
 | URL slug | Category |
 |:--------:|:--------:|
-| formatting | Site Information |
+| formatting | Writing Posts |
 
 ## How to format posts
 
@@ -19,17 +19,17 @@ Codidact uses the [CommonMark implementation](https://commonmark.org) of Markdow
   To make a word monospace, you can surround it with a single backtick (<code>&#96;</code>). This is generally used for code formatting. (Some people use this for emphasis. Don't do that! Screen readers will read out words formatted as code character by character - use *italics* or **bold** for emphasis instead.)
 
   To mark several lines as code, you can use a code fence. This is three backticks on a newline both on top and at the bottom of your lines of code. Don't use this for quotes - see below for guidance on quote formatting.
-  
+
 ### **Paragraphs**
 
   To create an entirely new paragraph to separate two blocks of text, use two newlines (usually typed by pressing the "enter" key) after the end of your first paragraph. This will result in two entirely separate paragraphs, like this:
-  
+
   > Paragraph one.
   >
   > Paragraph two.
-  
+
   To start on a new line directly under your previous line, use two spaces (`  `) after the end of your first line and then a newline. This will result in this:
-  
+
   > Paragraph one.  
   > Paragraph two.
 
@@ -42,14 +42,14 @@ Codidact uses the [CommonMark implementation](https://commonmark.org) of Markdow
 ```
 
   You can check out [Codidact][1] for an open-source, community-oriented Q&A platform!
-  
+
   [1]: https://codidact.org`
 
 ```
   Which will render like this:
 
   > You can check out [Codidact][1] for an open-source, community-oriented Q&A platform!
-  > 
+  >
   > [1]: https://codidact.org
 
   If you'd like to include rollover text for your link, you can put your text, surrounded by quote marks (`"`), into the URL of your link. For instance, `[Codidact](https://codidact.org "The open-source Q&A platform")` will create a link with `The open-source Q&A platform` as the rollover text.

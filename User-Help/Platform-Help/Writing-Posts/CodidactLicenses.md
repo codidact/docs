@@ -1,6 +1,6 @@
 | URL slug | Category |
 |:--------:|:--------:|
-| licenses | Guidance |
+| licenses | Writing Posts |
 
 
 # A guide to available licenses on Codidact sites
@@ -9,7 +9,7 @@ When writing a post, you have to choose what license you're sharing that work un
 
 ## [CC0: No Rights Reserved](https://creativecommons.org/share-your-work/public-domain/cc0/)
 
-When using the CC0 license, you waive all rights to the content that you are published, releasing it to the public domain. Anybody will be free to use or adapt your content without providing attribution to you, including for commercial purposes, under any license they choose, without displaying whether or not changes were made to the original content. 
+When using the CC0 license, you waive all rights to the content that you are published, releasing it to the public domain. Anybody will be free to use or adapt your content without providing attribution to you, including for commercial purposes, under any license they choose, without displaying whether or not changes were made to the original content.
 
 ## [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
@@ -17,7 +17,7 @@ When publishing your work under CC BY 4.0, anyone using your content must provid
 
 ## [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) and [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/): ShareAlike
 
-When using the CC BY-SA 3.0 or CC BY-SA 4.0 license, anyone who wants to use your content must provide attribution to the original content, as well as indicating whether or not modifications have been made to the original content. (For CC BY-SA 3.0, this only applies if changes have been made.) Any adaptations or re-sharing of the content must be published under either same license or a compatible license, but can be used for commercial purposes provided the attribution and other requirements are met. 
+When using the CC BY-SA 3.0 or CC BY-SA 4.0 license, anyone who wants to use your content must provide attribution to the original content, as well as indicating whether or not modifications have been made to the original content. (For CC BY-SA 3.0, this only applies if changes have been made.) Any adaptations or re-sharing of the content must be published under either same license or a compatible license, but can be used for commercial purposes provided the attribution and other requirements are met.
 
 Attribution must include a link to the original content, and note what license it was published under originally, as well as including a link to the license.  
 Compatible licenses include later versions of the CC BY-SA license. This means that content published under CC BY-SA 3.0 can be redistributed under CC BY-SA 4.0, but content published under CC BY-SA 4.0 cannot be redistributed under CC BY-SA 3.0.  

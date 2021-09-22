@@ -1,6 +1,6 @@
 | URL slug | Category |
 |:--------:|:--------:|
-| voting | Guidance |
+| voting | Using the Platform |
 
 # Why should I vote?
 
@@ -39,6 +39,3 @@ There is a daily limit on the number of votes you can cast.  This limit can be c
 # When should I change my vote?
 
 You can remove or reverse your vote at any time.  If you downvoted and the author edits to address your objection, you should at least remove your downvote (and upvote if you now find it appropriate).  If you've reconsidered&emdash;maybe you have more information now than when you first voted&emdash;then you can change your vote.  You aren't locked in; if you no longer agree with one of your past votes, change it.
-
-
-
