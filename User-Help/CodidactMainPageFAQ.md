@@ -8,7 +8,7 @@ Codidact aims to create a Questions & Answers platform that is more than just Q&
 
 ## What communities currently exist on Codidact?
 
-You can see a full list of communities on https://codidact.com.
+You can see a full list of communities on [https://codidact.com](https://codidact.com.).
 
 ## Where is the source code for Codidact?
 
@@ -16,7 +16,7 @@ All of the source code for the project can be found in repositories by the [Codi
 
 ## How can I get involved?
 
-If you'd like to get involved in our communities, such as asking questions or posting answers, that's great! Feel free to hop right in to any of the sites listed at https://codidact.com.  
+If you'd like to get involved in our communities, such as asking questions or posting answers, that's great! Feel free to hop right in to any of the sites listed at [https://codidact.com](https://codidact.com). 
 If you'd like to help contribute to the code, you're welcome to look around GitHub to find something you'd like to do. You can also hop into our main [Codidact development Discord server](https://discord.gg/WZ7aTst).
 
 ## I have a question that's not answered here. How can I get more information?
