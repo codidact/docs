@@ -8,7 +8,7 @@ Codidact aims to create a Questions & Answers platform that is more than just Q&
 
 ## What communities currently exist on Codidact?
 
-You can see a full list of communities on [https://codidact.com](https://codidact.com.).
+You can see a full list of communities on [https://codidact.com](https://codidact.com).
 
 ## Where is the source code for Codidact?
 
