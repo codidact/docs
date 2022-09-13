@@ -4,7 +4,7 @@ module.exports = {
   tagline: 'Q&A by the community, for the community',
   url: 'https://codidact-docs.netlify.app',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'codidact', // Usually your GitHub org/user name.
