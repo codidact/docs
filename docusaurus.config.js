@@ -26,7 +26,7 @@ module.exports = {
         },
         {
           href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          className: 'header-github-link',
           position: 'right',
         },
       ],
