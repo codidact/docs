@@ -25,6 +25,7 @@ This short guide goes over several aspects of accessibility to keep in mind when
   - <a href="#Contrast">Contrast</a>
   - <a href="#Animations">Animations</a>
   - <a href="#Text-images">Images of text</a>
+    - <a href="#Quotes">Quoting</a>
 - <a href="#Links">Links</a>
   - <a href="#Link-text">Link text</a>
   - <a href="#Web-Archive">Stable resource (Web Archive)</a>
@@ -205,7 +206,9 @@ We don't currently support any way to disable or pause animations in posts, so a
 
   Images of text can't have the text selected, be read by screen readers, indexed by search engines, have the text adjust in a responsive design, or have the font changed. This includes images of code; instead, put the actual code in your post and format it using the dedicated code formatting Markdown.
 
-* If you are quoting from somewhere, use blockquote formatting (which can be done by putting a `>` at the beginning of a paragraph) and cite your source.  
+<h4 id="Quotes">Quoting</h4>
+
+* If you are quoting from somewhere, don't provide an image of the text; use text, formatted as a blockquote (which can be done by putting a `>` at the beginning of a paragraph), and cite your source.  
 
   This applies to both online and offline resources, such as Wikipedia or a physical book.  
 
@@ -234,7 +237,7 @@ While not required by any standard that I'm aware of, I'd encourage you to take 
 
   This doesn't mean avoiding all technical terms, or not using the correct terms for things, but don't use jargon or fancy words when it's not necessary. This makes it easier for people who don't speak English as their first language, or people with cognitive disabilities, to understand your post.
 
-This should not come at the expense of precision or accuracy, though; keep your audience in mind. If you are writing for a highly specialized or technical audience, you shouldn't necessary shy aware from using the relevant terminology; but if you're writing for everyone, using relatively simple terms is often a good idea.
+This should not come at the expense of precision or accuracy, though; keep your audience in mind. If you are writing for a highly specialized or technical audience, you shouldn't necessary shy away from using the relevant terminology; but if you're writing for everyone, using relatively simple terms is often a good idea.
 
 <h3 id="Jargon">Define acronyms and specialized terms</h3>
 
