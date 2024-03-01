@@ -28,7 +28,7 @@ Since the platform is open-source and volunteer operated, setting strict timetab
 
 The Codidact Foundation encourages all people contributing posts, such as questions, answers, and articles, to make their posts accessible. This is done via system reminders, such as a warning when posting images without alt text, and via other users editing those posts to be more accessible.
 
-By the end of February 2024, an in-depth guide to creating accessible posts will be published in the Help Center.
+An in-depth guide to creating more accessibile posts is available to all users in the Help Center of each community.
 
 ### The "codidact.org" and "codidact.com" sites
 
