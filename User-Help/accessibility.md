@@ -1,6 +1,6 @@
 | URL slug | Category |
 |:--------:|:--------:|
-| accessibility | About the Network |
+| accessibility-policy | About the Network |
 
 # Codidact Accessibility Statement
 
